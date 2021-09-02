@@ -201,6 +201,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -499,6 +504,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -791,6 +801,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -1026,6 +1041,11 @@
                 "caption": {
                   "description": "Brief caption of the contact record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -1306,6 +1326,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -1537,6 +1562,11 @@
                 "caption": {
                   "description": "Brief caption of the draft entry record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -1818,6 +1848,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -1987,6 +2022,11 @@
                 "caption": {
                   "description": "Descriptive caption of the document record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -2220,6 +2260,11 @@
                 "caption": {
                   "description": "Descriptive caption of the document record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -2475,6 +2520,11 @@
                 "caption": {
                   "description": "Descriptive caption of the item's record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -2857,6 +2907,11 @@
                 "caption": {
                   "description": "Brief caption of the document record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -3273,6 +3328,11 @@
                 "caption": {
                   "description": "Descriptive caption of the document record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -3884,6 +3944,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "The data object of the response",
                   "properties": {
@@ -4067,6 +4132,11 @@
                 "caption": {
                   "description": "Brief caption of the record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -4345,6 +4415,11 @@
                   "title": "Caption",
                   "type": "string"
                 },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
+                  "type": "string"
+                },
                 "data": {
                   "description": "Data object of the response",
                   "properties": {
@@ -4551,6 +4626,11 @@
                 "caption": {
                   "description": "Descriptive caption of the task record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -4760,6 +4840,11 @@
                 "caption": {
                   "description": "Descriptive caption of the supplier record",
                   "title": "Caption",
+                  "type": "string"
+                },
+                "remoteKey": {
+                  "description": "Third party application ID",
+                  "title": "Remote Key",
                   "type": "string"
                 },
                 "data": {
@@ -9859,6 +9944,132 @@
           }
         },
         "summary": "Insert or Modify Supplier"
+      }
+    },
+    "/setRemoteKey": {
+      "post": {
+        "description": "Insert third-party application ID to a Soft1 Object",
+        "operationId": "SetRemoteKey",
+        "parameters": [
+          {
+            "default": "setRemoteKey",
+            "in": "query",
+            "name": "op",
+            "required": true,
+            "type": "string",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "properties": {
+                "KEY": {
+                  "description": "Enter a valid Soft1 Object ID",
+                  "title": "KEY",
+                  "type": "string",
+                  "x-ms-summary": "KEY"
+                },
+                "REFID": {
+                  "description": "Enter a valid third-party application ID",
+                  "title": "Remote Key",
+                  "type": "string",
+                  "x-ms-summary": "Remote Key"
+                },
+                "SOSOURCE": {
+                  "description": "Select Soft1 Object",
+                  "enum": [
+                    "Cheque",
+                    "Collections document",
+                    "Contacts",
+                    "Customer",
+                    "Draft entry",
+                    "Email",
+                    "Expenses",
+                    "Expenses document",
+                    "Meeting",
+                    "Item",
+                    "Payments document",
+                    "Purchases document",
+                    "Sales document",
+                    "Services",
+                    "Stock document",
+                    "Supplier",
+                    "Task"
+                  ],
+                  "title": "Soft1 Object",
+                  "type": "string",
+                  "x-ms-summary": "Remote Key"
+                },
+                "APPID": {
+                  "default": "702",
+                  "description": "Application's Id",
+                  "title": "App Id",
+                  "type": "string",
+                  "x-ms-summary": "App Id",
+                  "x-ms-visibility": "internal"
+                },
+                "SERVICE": {
+                  "default": "SetRefIdTokey",
+                  "description": "service",
+                  "title": "service",
+                  "type": "string",
+                  "x-ms-summary": "service",
+                  "x-ms-visibility": "internal"
+                }
+              },
+              "required": [
+                "APPID",
+                "REFID",
+                "SERVICE",
+                "KEY",
+                "SOSOURCE"
+              ],
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/setData200response"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "schema": {
+              "properties": {
+                "error": {
+                  "description": "Error message if action is unsuccessful",
+                  "title": "Error",
+                  "type": "string",
+                  "x-ms-summary": "Error"
+                },
+                "errorcode": {
+                  "description": "Error code if action is unsuccessful",
+                  "title": "Error code",
+                  "type": "integer",
+                  "x-ms-summary": "Error code"
+                },
+                "success": {
+                  "description": "Is action successful?",
+                  "title": "Success",
+                  "type": "boolean",
+                  "x-ms-summary": "Success"
+                }
+              },
+              "type": "object"
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ],
+        "summary": "Insert Remote Key"
       }
     },
     "/webhook": {
